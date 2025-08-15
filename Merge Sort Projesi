@@ -1,0 +1,23 @@
+Başlangıç dizisi: [16, 21, 11, 8, 12, 22]
+Merge Sort Aşamaları
+Adım 1 – Bölme (Divide):
+[16, 21, 11]   |   [8, 12, 22]
+Adım 2 – Alt gruplara bölme:
+[16] [21, 11]   |   [8] [12, 22]
+Adım 3 – Tek eleman kalana kadar bölme:
+[16] [21] [11]   |   [8] [12] [22]
+Adım 4 – Birleştirme (Merge) – Sıralı şekilde:
+- [21] ve [11] → [11, 21]
+- [12] ve [22] → [12, 22]
+Durum: [16] [11, 21]   |   [8] [12, 22]
+Adım 5 – Birleştirme:
+- [16] ve [11, 21] → [11, 16, 21]
+- [8] ve [12, 22] → [8, 12, 22]
+Adım 6 – Son birleştirme:
+- [11, 16, 21] ve [8, 12, 22] → [8, 11, 12, 16, 21, 22]
+Son sıralı dizi: [8, 11, 12, 16, 21, 22]
+Big-O Gösterimi
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+Ekstra Bellek: O(n) (çünkü bölünmüş listeler saklanır)
