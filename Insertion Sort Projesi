@@ -1,0 +1,18 @@
+1. Insertion Sort Aşamaları
+[22, 27, 16, 2, 18, 6] (Başlangıç)
+[22, 27, 16, 2, 18, 6] (27 yerinde)
+[16, 22, 27, 2, 18, 6] (16 eklendi)
+[2, 16, 22, 27, 18, 6] (2 eklendi)
+[2, 16, 18, 22, 27, 6] (18 eklendi)
+[2, 6, 16, 18, 22, 27] (6 eklendi - Sıralı)
+Big-O Gösterimi:
+Best Case: O(n)
+Average Case: O(n²)
+Worst Case: O(n²)
+18 sayısı sıralı dizide ortada olduğundan Average Case kapsamına girer.
+2. Selection Sort İlk 4 Adım
+[7, 3, 5, 8, 2, 9, 4, 15, 6] (Başlangıç)
+[2, 3, 5, 8, 7, 9, 4, 15, 6] (Adım 1 - 2 başa geldi)
+[2, 3, 5, 8, 7, 9, 4, 15, 6] (Adım 2 - 3 yerinde)
+[2, 3, 4, 8, 7, 9, 5, 15, 6] (Adım 3 - 4 geldi)
+[2, 3, 4, 5, 7, 9, 8, 15, 6] (Adım 4 - 5 geldi)
